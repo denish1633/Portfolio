@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+  font-family: 'Arvo', serif;
+}
+body{
+  background-color: #f8f8f8;
 }
