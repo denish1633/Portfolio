@@ -2,11 +2,15 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://denish1633.github.io/my-portfolio",
+
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "deploy": "next build && gh-pages -d out"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "clsx": "^2.1.1",
