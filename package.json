@@ -10,7 +10,7 @@
     "build": "next build",
     "export": "next export",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "clsx": "^2.1.1",
